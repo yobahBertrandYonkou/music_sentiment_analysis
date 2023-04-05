@@ -1,0 +1,22 @@
+1) The final cleaned data is a list of vectors. Each vector holds the words (as elements) of a song lyrics.
+2) The processed data can be gotten only after running the entire code. The execution may take some time to complete (Get some lemon tea before executing it :)).
+3) Each music mode category has a variable containing tokenised words of lyrics under that category. For sad songs, sad.tokenized holds tokenised lyrics for all songs that fall under sad. (Variable structure; <<sentiment>>.tokenzied).
+4) Tokenised words still have stop words in them. During EDA, you can remove the stop words. I allowed them there because lemmatisation will need the stop words to better determine the part of speech a word belongs to.
+5) unclead_lyrics contains raw lyrics.
+6) lyrics column contains clean/preprocessed lyrics.
+7) The data column has been parsed with a date parse so all dates are in the same format.
+
+Updates November 16, 2022
+New csv file: dataset_with_no_stopwords.csv
+
+8) Added few columns
+- lyrics_with_punctuations: Contains cleaned lyrics but with punctuations that will be used when Identifying part of speech.
+- lemmatized_lyrics: Contains lemmatised lyrics (lemmatised using part of speech).
+- lyrics_no_stopwords: This is the final lyrics after lemmatisation. Here, I have used stop words provided by the text mining (tm) library to remove stop words from the lemmatised lyrics. Moreso, I have added two stop words, that is, "ey", and "oh". This likes the field you would want to use for your exploratory data analysis of the lyrics.
+
+
+NOTE: I would suggest that you do your EDA in another R or Juyter notebook. Don't combine the data cleaning note book with yours (just import the cleaned css file).
+
+HEADS UP: Don't print the entire dataset during your analysis because it might crash your system.
+
+Let me know if there are any doubts. :)

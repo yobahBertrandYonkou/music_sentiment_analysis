@@ -1,0 +1,17 @@
+Mood,Region,Rank,Views,Units_Sold
+Happy,North,R1,24971,84
+Happy,South,R2,25749,557
+Happy,East,R3,24437,95
+Happy,West,R4,25355,706
+Sad,North,R1,25320,231
+Sad,South,R2,25999,84
+Sad,East,R3,22639,260
+Sad,West,R4,23949,109
+Angry,North,R1,20280,453
+Angry,South,R2,21584,114
+Angry,East,R3,19625,83
+Angry,West,R4,19832,70
+Relaxed,North,R1,25150,242
+Relaxed,South,R2,29061,146
+Relaxed,East,R3,27113,120
+Relaxed,West,R4,25953,81
