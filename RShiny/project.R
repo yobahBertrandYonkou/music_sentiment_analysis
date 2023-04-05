@@ -10,7 +10,7 @@ library(geniusr)
 library(DT)
 library(fmsb)
 options(shiny.maxRequestSize = 30 * 1024^2)
-source("/Users/yobahbertrandyonkou/Downloads/D and D/classification_module/classify.R")
+source("classification_module/classify.R")
 
 Sys.setenv(GENIUS_API_TOKEN = "OErgxm17PVFBmG7fjQHdptxCUBJPzxK1KYKJYjYt7ZVXBZplslV12Tp6L2Mj-Io0")
 
