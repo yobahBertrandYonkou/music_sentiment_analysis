@@ -27,9 +27,9 @@
 3. Go to RShiny/project.R
 4. Paste the path copied in step 2 in the line 13: <code>source("classification_module/classify.R")</code>
 5. Install the following python packages
-   - '<code>pip install -U pip setuptools wheel</code>
-   - '<code>pip install -U spacy</code>
-   - '<code>python -m spacy download en_core_web_sm</code>
+   - <code>pip install -U pip setuptools wheel</code>
+   - <code>pip install -U spacy</code>
+   - <code>python -m spacy download en_core_web_sm</code>
 
 6. Changes to be made in RShiny/classification_module/classify.R
    1. If spacy is installed in a virtual environment, copy that path to that environment and update the virtualenv attribute of <code>spacy_initialize(model = 'en_core_web_sm', virtualenv  = "path/spacyenv/")</code>.
