@@ -38,7 +38,7 @@
         - <code>sad_corpus = readRDS("path/sad_corpus.rda")</code>
         - <code>happy_corpus = readRDS("path/happy_corpus.rda")</code>
 
-7. Execute the app;
+7. Run the app;
    - <b>Using your terminal:</b> Open your terminal, navigate to the project's root directory <code>RShiny</code> and run <code>R -e "shiny::runApp('project.R')"</code> in your terminal.
    - <b>Using RStudio:</b> Open RStudio, navigate to <code>File > Open File > Go to the project folder and select project.R</code>
 
