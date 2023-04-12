@@ -40,5 +40,6 @@
 
 7. Run the app;
    - <b>Using your terminal:</b> Open your terminal, navigate to the project's root directory <code>RShiny</code> and run <code>R -e "shiny::runApp('project.R')"</code> in your terminal.
-   - <b>Using RStudio:</b> Open RStudio, navigate to <code>File > Open File > Go to the project folder and select project.R</code>
+   - <b>Using RStudio:</b> Open RStudio, navigate to <code>File > Open File > Go to the project folder and select project.R</code>.
+   - Click on <code>Run App</code> in RStudio (top right).
 
