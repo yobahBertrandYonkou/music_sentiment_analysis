@@ -1,7 +1,6 @@
 # music_sentiment_analysis
 
-#### Command to run code
-R -e "shiny::runApp('project.R')"
+### HOW TO RUN THIS PROJECT
 
 #### Required Libraries
 1. "shiny"
@@ -28,9 +27,9 @@ R -e "shiny::runApp('project.R')"
 3. Go to RShiny/project.R
 4. Paste the path copied in step 2 in the line 13: <code>source("classification_module/classify.R")</code>
 5. Install the following python packages
-   - <code>pip install -U pip setuptools wheel</code>
-   - <code>pip install -U spacy</code>
-   - <code>python -m spacy download en_core_web_sm</code>
+   - '<code>pip install -U pip setuptools wheel</code>
+   - '<code>pip install -U spacy</code>
+   - '<code>python -m spacy download en_core_web_sm</code>
 
 6. Changes to be made in RShiny/classification_module/classify.R
    1. If spacy is installed in a virtual environment, copy that path to that environment and update the virtualenv attribute of <code>spacy_initialize(model = 'en_core_web_sm', virtualenv  = "path/spacyenv/")</code>.
@@ -38,4 +37,8 @@ R -e "shiny::runApp('project.R')"
         - <code>angry_corpus = readRDS("path/angry_corpus.rda")</code>
         - <code>sad_corpus = readRDS("path/sad_corpus.rda")</code>
         - <code>happy_corpus = readRDS("path/happy_corpus.rda")</code>
+
+7. Execute the app;
+   - <b>Using your terminal:</b> Open your terminal, navigate to the project's root directory <code>RShiny</code> and run <code>R -e "shiny::runApp('project.R')"</code> in your terminal.
+   - <b>Using RStudio:</b> Open RStudio, navigate to <code>File > Open File > Go to the project folder and select project.R</code>
 
