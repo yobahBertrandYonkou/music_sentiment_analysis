@@ -28,22 +28,14 @@ R -e "shiny::runApp('project.R')"
 3. Go to RShiny/project.R
 4. Paste the path copied in step 2 in the line 13: <code>source("classification_module/classify.R")</code>
 5. Install the following python packages
-<code>
-   - pip install -U pip setuptools wheel
-   - pip install -U spacy
-   - python -m spacy download en_core_web_sm
-</code>
+   - <code>pip install -U pip setuptools wheel</code>
+   - <code>pip install -U spacy</code>
+   - <code>python -m spacy download en_core_web_sm</code>
 
 6. Changes to be made in RShiny/classification_module/classify.R
    1. If spacy is installed in a virtual environment, copy that path to that environment and update the virtualenv attribute of <code>spacy_initialize(model = 'en_core_web_sm', virtualenv  = "path/spacyenv/")</code>.
    2. Update the path to all the corpuses; corpuses are found in <code>RShiny/classification_module</code>. Update the following paths;
-   
-        <code>
-            <i>
-            <ul>
-                <li>angry_corpus = readRDS("path/angry_corpus.rda")</li>
-                <li>sad_corpus = readRDS("path/sad_corpus.rda")</li>
-                <li>happy_corpus = readRDS("path/happy_corpus.rda")</li>
-            </ul>
-            </i>
-        </code>
+        - <code>angry_corpus = readRDS("path/angry_corpus.rda")</code>
+        - <code>sad_corpus = readRDS("path/sad_corpus.rda")</code>
+        - <code>happy_corpus = readRDS("path/happy_corpus.rda")</code>
+
