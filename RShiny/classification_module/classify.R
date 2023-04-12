@@ -15,15 +15,15 @@ library('caret')
 library("e1071")
 
 # initializing spacyr
-spacy_initialize(model = 'en_core_web_sm', virtualenv  = "/Users/yobahbertrandyonkou/spacyenv/")
+spacy_initialize(model = 'en_core_web_sm', virtualenv  = "path/spacyenv/")
 
 # importing model
-msa_model = readRDS("/Users/yobahbertrandyonkou/Downloads/D and D/classification_module/msa_model_81_lyrics_and_sentiments_only.rda")
+msa_model = readRDS("path/msa_model_81_lyrics_and_sentiments_only.rda")
 
 # loading corpus
-angry_corpus = readRDS("/Users/yobahbertrandyonkou/Downloads/D and D/classification_module/angry_corpus.rda")
-sad_corpus = readRDS("/Users/yobahbertrandyonkou/Downloads/D and D/classification_module/sad_corpus.rda")
-happy_corpus = readRDS("/Users/yobahbertrandyonkou/Downloads/D and D/classification_module/happy_corpus.rda")
+angry_corpus = readRDS("path/angry_corpus.rda")
+sad_corpus = readRDS("path/sad_corpus.rda")
+happy_corpus = readRDS("path/happy_corpus.rda")
 
 classify_lyrics = function(test_lyrics){
     # replacing ’ with '
