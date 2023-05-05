@@ -1,5 +1,8 @@
 # music_sentiment_analysis
 
+## Brief Description
+This is a project executed by the MSc. Big Data Analysis students of ST Josephs University Bangalore as their first semester project. The aim here was to perform sentiment analysis on music lyrics, classify music into angry, happy and sad.
+
 ### HOW TO RUN THIS PROJECT
 
 #### Required Libraries
