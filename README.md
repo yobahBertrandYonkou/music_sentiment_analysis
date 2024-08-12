@@ -46,8 +46,9 @@ This is a project executed by the MSc. Big Data Analysis students of ST Josephs 
    - <b>Using RStudio:</b> Open RStudio, navigate to <code>File > Open File > Go to the project folder and select project.R</code>.
    - Click on <code>Run App</code> in RStudio (top right).
 
+<br>
 
-# Music Lyrics Sentiment Classification
+# Project Report - Music Lyrics Sentiment Classification
 
 ## Problem Statement
 
